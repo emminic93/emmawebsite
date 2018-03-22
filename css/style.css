@@ -325,7 +325,8 @@ figure figcaption {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-gallery .gallery-item .overlay h2, .fh5co-gallery .gallery-item .overlay span {
+.fh5co-gallery .gallery-item .overlay h2, .fh5co-gallery .gallery-item .overlay span, 
+.fh5co-gallery .gallery-item .overlay h3 {
   position: relative;
   z-index: 12;
   margin-bottom: 0;
@@ -338,13 +339,26 @@ figure figcaption {
 .fh5co-gallery .gallery-item .overlay h2 {
   color: #fff;
   font-size: 26px;
-  font-weight: 300;
-  margin-bottom: 10px;
-  bottom: -15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  bottom: -5px;
+}
+.fh5co-gallery .gallery-item .overlay h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  bottom: -5px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-gallery .gallery-item .overlay h2 {
     font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 768px) {
+  .fh5co-gallery .gallery-item .overlay h3 {
+    font-size: 16px;
   }
 }
 .fh5co-gallery .gallery-item .overlay span {
